@@ -1,0 +1,144 @@
+@import 'article-paragraph';
+@import 'article-blockquote';
+@import 'article-exercise';
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 690px;
+    gap: 24px;
+}
+
+.article__title {
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.article__details {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    color: rgba(73, 73, 73, 1);
+}
+
+.article__details_1024 {
+    display: none;
+    gap: 8px;
+    font-size: 14px;
+    color: rgba(73, 73, 73, 1);
+}
+
+.article__image__description {
+    color: rgba(134, 134, 134, 1);
+    font-size: 14px;
+    letter-spacing: 0.25px;
+}
+
+.article__notification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 48px;
+    background: url('/src/svg/article__svg_notification.svg') no-repeat;
+    background-position: center;
+}
+
+.article__notification__text {
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    width: 485px;
+}
+
+.article__image-and-text {
+    flex-direction: row;
+    gap: 24px;
+}
+
+.article__image-and-text_2 {
+    flex-direction: column;
+}
+
+.article__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.article__tags__tag {
+    font-size: 14px;
+    color: rgba(41, 99, 163, 1);
+}
+
+.article__tags__tag_1024 {
+    display: none;
+    font-size: 14px;
+    color: rgba(41, 99, 163, 1);
+}
+
+@media (max-width: 1199px) {
+    article {
+        width: 714px;
+    }
+
+    .article__tags__tag_1024 {
+        display: block;
+    }
+
+    .article__details_1024 {
+        display: flex;
+    }
+    
+}
+
+@media (max-width: 959px) {
+    
+    .article__tags {
+        display: none;
+    }
+}
+
+@media (max-width: 727px) {
+
+    article {
+        width: 374px;
+    }
+
+    .article__title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .article__image-and-text {
+        flex-direction: column;
+        gap: 24px;
+    }
+    .article__notification__text {
+        width: auto;
+    }
+}
+
+@media (max-width: 373px) {
+
+    article {
+        width: 288px;
+        gap: 16px;
+    }
+
+    .article__title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .article__notification {
+        padding: 0;
+    }
+}
+
+
+
+
+

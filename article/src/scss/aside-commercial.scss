@@ -1,0 +1,61 @@
+.aside__block_commercial {
+    border: 1px solid rgba(222, 222, 222, 1);
+    position: relative;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.aside__block_commercial__title {
+    border: 0;
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+    font-weight: 700;
+}
+
+.aside__block_commercial__title__number {
+    border: 0;
+    line-height: 32px;
+    font-size: 24px;
+    color: rgb(41, 99, 163);
+}
+
+.aside__block_commercial__title__text {
+    line-height: 26px;
+    font-size: 18px;
+    color: rgb(41, 99, 163);
+}
+
+.aside__block_commercial__text {
+    color: rgba(1, 22, 50, 1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.aside__block_commercial__price {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.aside__block_commercial__button {
+    width: 108px;
+    padding: 12px 16px;
+}
+
+@media (max-width: 959px) {
+    .aside__block_commercial {
+        height: 242px;
+        padding-top: 10px;
+       /*  padding-bottom: 16px; */
+
+    }
+}
+
+@media (max-width: 727px) {
+    .aside__block_commercial {
+        height: unset;
+        padding: 24px;
+
+    }
+} 

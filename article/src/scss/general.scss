@@ -1,0 +1,27 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+}
+
+span, p, h1, h2, h3, h4, blockquote {
+    color: rgba(51, 51, 51, 1);
+    margin: 0;
+}
+
+
+@import 'header';
+
+@import 'main';
+
+@import 'article';
+
+@import 'aside';
+
+@import 'footer';
+
+@import 'buttons';

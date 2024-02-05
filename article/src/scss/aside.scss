@@ -1,0 +1,64 @@
+aside {
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.aside__block {
+    width: 100%;
+    border-radius: 16px;
+    padding: 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aside__block_svg {
+    padding: 0;
+}
+
+@media (max-width: 1199px) {
+    aside {
+        width: 222px;
+    }
+}
+
+@media (max-width: 959px) {
+    aside {
+        justify-content: center;
+        width: 728px;
+        flex-direction: row;
+        flex-wrap: wrap
+    }
+
+    .aside__block {
+        width: 352px;
+    }
+}
+
+@media (max-width: 727px) {
+    aside {
+        width: 374px;
+    }
+
+    .aside__block {
+        width: 374px;
+    }
+}
+
+@media (max-width: 373px) {
+    aside {
+        width: 288px;
+    }
+
+    .aside__block {
+        width: 288px;
+    }
+}
+
+
+@import 'aside-appointment';
+@import 'aside-doctor';
+@import 'aside-commercial';

@@ -1,0 +1,25 @@
+.article__paragraph_exercise {
+    box-sizing: border-box;
+    padding: 24px;
+    border-radius: 16px;
+    gap: 8px;
+}
+
+.article__paragraph_exercise_1 {
+    background: rgba(254, 250, 236, 1);
+}
+
+.article__paragraph_exercise_2 {
+    background: rgba(255, 243, 235, 1);
+}
+
+.article__paragraph_exercise_3 {
+    background: rgba(3, 178, 165, 0.1);
+
+}
+
+@media (max-width: 727px) {
+    .article__paragraph_exercise {
+        padding: 16px;
+    }
+}

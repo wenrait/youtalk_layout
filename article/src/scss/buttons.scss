@@ -1,0 +1,83 @@
+button {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border: 0;
+    border-radius: 4px;
+    padding: 14px 20px;
+    color: white;
+    background: rgba(227, 245, 245, 1);
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05, 1.05);
+    transition: 0.125s;
+}
+
+.header__button {
+    color: rgba(3, 178, 165, 1);
+    gap: 10px;
+}
+
+.header__button_768 {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    padding: 0;
+}
+
+.main__bottom__content__button {
+    background: rgba(22, 200, 187, 1);
+    width: fit-content;
+    padding: 20px 24px;
+
+}
+
+.aside__block__button {
+    background: rgba(53, 179, 169, 1);
+    width: 100%;
+}
+
+.aside__block_commercial__button {
+    z-index: 1;
+    width: 108px;
+    padding: 12px 16px;
+}
+
+.footer__button {
+    box-sizing: border-box;
+    position: absolute;
+    height: 48px;
+    right: 0;
+    top: 0;
+    border-radius: 4px;
+    gap: 10px;
+    background: rgba(22, 200, 187, 1);
+}
+
+.social-networks__button {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    background: transparent;
+    border-radius: 16px;;
+}
+
+@media (max-width: 959px) {
+    .header__button {
+        display: none;
+    }
+
+    .header__button_768 {
+        display: block;
+    }
+
+    /* .aside__block_doctor__button {
+        position: absolute;
+        bottom: 24px;
+    }
+     */
+}

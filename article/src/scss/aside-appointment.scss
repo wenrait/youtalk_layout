@@ -1,0 +1,46 @@
+.aside__block_appointment {
+    background-color: rgba(230, 240, 253, 1);
+    padding: 250px 24px 24px;
+    gap: 24px;
+    background-image: url('/src/svg/aside__svg_1.svg');
+    background-position-y: 24px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
+.aside__block_appointment__content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.aside__block_appointment__content__title, .aside__block_appointment__content__text {
+    text-align: center;
+}
+
+.aside__block_appointment__content__title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.aside__block_appointment__content__text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media (max-width: 1199px) {
+    .aside__block_appointment {
+        padding: 180px 24px 24px;
+        background-image: url('/src/svg/aside__svg_1_1024.svg');
+
+    }
+}
+
+@media (max-width: 1199px) {
+    .aside__block_appointment {
+        padding: 244px 24px 24px;
+        background-image: url('/src/svg/aside__svg_1.svg');
+
+    }
+}

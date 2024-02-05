@@ -1,0 +1,30 @@
+img {
+    display: block;
+}
+
+.article__image {
+    width: 100%
+}
+
+.article__image_1024 {
+    display: none;
+}
+
+.aside__image_1 {
+    width: 120px;
+    border-radius: 50%;
+}
+
+@media (max-width: 1199px) {
+    .article__image_1_1024 {
+        display: block;
+    }
+}
+
+/* @media (max-width: 727px) {
+    .article__image {
+        width: fit-content;
+    }
+    
+}
+ */
